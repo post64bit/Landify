@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Landify</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header class="header">
+    <div class="header__wrapper">
+        <div class="header__top">
+            <div class="header__top-wrapper">
+                <div class="header__container">
+                    <div class="header__logo">
+                        <a href="#!" class="header__logo-link">
+                            <img class='header__logo-pic' src="./img/svg/logo.svg" alt="Landify">
+                        </a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a href="#!" class="header__link">About</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Products</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Pricing</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Blog</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Jobs</a>
+                            </li>
+                            <li class="header__item header__item-last">
+                                <a href="#!" class="header__link header__link-last">More</a>
+                                <div class="header__arrow" id="arr">
+                                    <span class="header__arrow-left"></span>
+                                    <span class="header__arrow-right"></span>
+                                </div>
+                                <ul class="header__sub-item-ul">
+                                    <li class="header__sub-item-li">
+                                        <a href="#!" class="header__sub-link">sub More</a>
+                                    </li>
+                                    <li class="header__sub-item-li">
+                                        <a href="#!" class="header__sub-link">sub More</a>
+                                    </li>
+                                    <li class="header__sub-item-li">
+                                        <a href="#!" class="header__sub-link">sub More</a>
+                                    </li>
+                                    <li class="header__sub-item-li">
+                                        <a href="#!" class="header__sub-link">sub More</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__download header__download-media">
+                        <a href="#!" class="header__download-link">
+                            <img class='header__download-pic' src="./img/svg/GooglePlay.svg" alt="GooglePlay">
+                        </a>
+                        <a href="#!" class="header__download-link">
+                            <img class='header__download-pic' src="./img/svg/AppStore.svg" alt="App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__download header__download-pc">
+                    <a href="#!" class="header__download-link">
+                        <img class='header__download-pic' src="./img/svg/GooglePlay.svg" alt="GooglePlay">
+                    </a>
+                    <a href="#!" class="header__download-link">
+                        <img class='header__download-pic' src="./img/svg/AppStore.svg" alt="App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <a href="#!" id="arrow-to-top">
+        <svg class="arrow-to-top">
+            <use class="arrow-to-top__svg" xlink:href='./img/svg/arrow-to-top.svg#arrow-to-top'></use>
+        </svg>
+    </a>
+    <section class="intro">
+        <div class="intro__wrapper wrapper">
+            <div class="intro__left-side">
+                <h1 class="intro__h1">Organise projects. <br>Get more done.</h1>
+                <!--                button start-->
+                <button class="blob-btn">
+                    Get Started
+                    <span class="blob-btn__inner">
+                        <span class="blob-btn__blobs">
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                        <span class="blob-btn__blob"></span>
+                      </span>
+                    </span>
+                </button>
+                <br/>
+                <svg class="intro__button-helper" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                            <feColorMatrix in="blur" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7"
+                                           result="goo"></feColorMatrix>
+                            <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                        </filter>
+                    </defs>
+                </svg>
+                <!--            button end -->
+            </div>
+            <div class="intro__parallax">
+                <div class="intro__parallax-bg1"></div>
+            </div>
+            <img class="intro__img-for-media" src="./img/phone-img.webp" alt="phone">
+        </div>
+    </section>
+    <div class="clients">
+        <div class="wrapper">
+            <div class="clients__gray-line"></div>
+            <div class="clients__items">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/airbnb.svg" alt="airbnb">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/Hubspot.svg" alt="Hubspot">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/Google.svg" alt="Google">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/Microsoft.svg" alt="Microsoft">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/Walmart.svg" alt="Walmart">
+                <img class="clients__item-img" src="./img/svg/svgOfCompanies/FedEx.svg" alt="FedEx">
+            </div>
+            <div class="clients__gray-line"></div>
+        </div>
+    </div>
+    <section class="tailor-made">
+        <h2 class="tailor-made__h2">Tailor-made features</h2>
+        <p class="tailor-made__text">
+            Lorem ipsum is common placeholder text used to demonstrate
+            the graphic elements of a document or visual presentation.
+        </p>
+        <div class="tailor-made__advantages wrapper">
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/01.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">Robust workflow</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/02.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">Flexibility</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/03.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">User friendly</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/04.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">Multiple layouts</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/05.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">Better components</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+            <div class="tailor-made__advantages-block">
+                <img class="tailor-made__advantages-block-img" src="./img/svg/svgOfAdvantages/06.svg"
+                     alt="Advantages">
+                <h5 class="tailor-made__advantages-block-h5">Well organised</h5>
+                <p class="tailor-made__advantages-block-text">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed erat nibh tristique ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="stories">
+        <div class="wrapper">
+            <img src="./img/svg/Quote.svg" alt="quote-mark" class="stories__quote-mark">
+            <h2 class="stories__h2" data-aos="fade-down">Real Stories from <br> Real Customers</h2>
+            <p class="stories__text">Get inspired by these stories.</p>
+            <div class="stories__two-sides">
+                <div class="stories__left-side">
+                    <div class="stories__content-block stories__block-1" data-aos="fade-right">
+                        <img src="./img/svg/svgOfCompanies/Hubspot.svg" alt=""
+                             class="stories__content-block-img-company">
+                        <img src="./img/svg/Quote.svg" alt="" class="stories__content-block-img-quote">
+                        <div class="stories__content-block-all-text">
+                            <p class="stories__content-block-text">
+                                To quickly start my startup landing page design, I was looking
+                                for a landing page UI Kit. Landify is one of the best landing
+                                page UI kit I have come across. It’s so flexible, well organised
+                                and easily editable.
+                            </p>
+                            <p class="stories__content-block-autor">Floyd Miles</p>
+                            <p class="stories__content-block-autor-position">Vice President, GoPro</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories__right-side">
+                    <div class="stories__content-block stories__block-2" data-aos="fade-left">
+                        <img src="./img/svg/svgOfCompanies/airbnb.svg" alt=""
+                             class="stories__content-block-img-company">
+                        <img src="./img/svg/Quote.svg" alt="" class="stories__content-block-img-quote">
+                        <div class="stories__content-block-all-text">
+                            <p class="stories__content-block-text">
+                                I used landify and created a landing page for my
+                                startup within a week. The Landify UI Kit is simple
+                                and highly intuitive, so anyone can use it.
+                            </p>
+                            <p class="stories__content-block-autor">Jane Cooper</p>
+                            <p class="stories__content-block-autor-position">CEO, Airbnb</p>
+                        </div>
+                    </div>
+                    <div class="stories__content-block stories__block-3" data-aos="fade-up">
+                        <img src="./img/svg/svgOfCompanies/BookMyShow.svg" alt=""
+                             class="stories__content-block-img-company">
+                        <img src="./img/svg/Quote.svg" alt="" class="stories__content-block-img-quote">
+                        <div class="stories__content-block-all-text">
+                            <p class="stories__content-block-text">
+                                Landify saved our time in designing my company page.
+                            </p>
+                            <p class="stories__content-block-autor">Kristin Watson</p>
+                            <p class="stories__content-block-autor-position">Co-Founder, BookMyShow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stats">
+        <div class="wrapper">
+            <div class="stats__wrapper">
+                <div class="stats__left-side">
+                    <h2 class="stats__h2">Our 18 years of<br>achievements</h2>
+                    <p class="stats__text">With our super powers we have reached this</p>
+                </div>
+                <div class="stats__right-side">
+                    <div class="stats__two-blocks">
+                        <div class="stats__block">
+                            <img class="stats__item-img" data-aos="new-animation" src="./img/svg/svgOfAdvantages/01.svg"
+                                 alt="Advantages">
+                            <div class="stats__block-text">
+                                <p class="stats__count">10,000+</p>
+                                <p class="stats__description">Downloads per day</p>
+                            </div>
+                        </div>
+                        <div class="stats__block">
+                            <img class="stats__item-img" data-aos="new-animation" src="./img/svg/svgOfAdvantages/05.svg"
+                                 alt="Advantages">
+                            <div class="stats__block-text">
+                                <p class="stats__count">500+</p>
+                                <p class="stats__description">Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats__two-blocks">
+                        <div class="stats__block">
+                            <img class="stats__item-img" data-aos="new-animation" src="./img/svg/svgOfAdvantages/04.svg"
+                                 alt="Advantages">
+                            <div class="stats__block-text">
+                                <p class="stats__count">2 Million</p>
+                                <p class="stats__description">Users</p>
+                            </div>
+                        </div>
+                        <div class="stats__block">
+                            <img class="stats__item-img" data-aos="new-animation" src="./img/svg/svgOfAdvantages/07.svg"
+                                 alt="Advantages">
+                            <div class="stats__block-text">
+                                <p class="stats__count">140</p>
+                                <p class="stats__description">Countries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="image-of-phone">
+        <div class="wrapper">
+            <div class="image-of-phone__content">
+                <div class="image-of-phone__parallax">
+                    <div class="image-of-phone__parallax-bg2"></div>
+                </div>
+                <div class="image-of-phone__content-text">
+                    <p class="image-of-phone__h3" data-aos="fade-right">Headline</p>
+                    <p class="image-of-phone__description" data-aos="fade-right">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Condimentum diam orci pretium a pharetra,
+                        feugiat cursus. Dictumst risus, sem egestas odio cras
+                        adipiscing vulputate. Nisi, risus in suscipit non.
+                        Non commodo volutpat, pharetra, vel.
+                    </p>
+                    <a href="#!" class="image-of-phone__button">
+                        Get started
+                        <img class="image-of-phone__arrow" src="./img/svg/arrow.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="bulbs">
+        <div class="bulbs__wrapper wrapper">
+            <div class="bulbs__content">
+                <h3 class="bulbs__h3" data-aos="fade-right">Enter the world of all fashion trends</h3>
+                <p class="bulbs__text" data-aos="fade-left">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Venenatis scelerisque at quam congue posuere libero in sit
+                    quam. Consequat, scelerisque non tincidunt sit lectus senectus.
+                </p>
+            </div>
+            <img class="bulbs__img" src="./img/bulbs.webp" alt="">
+        </div>
+    </section>
+    <section class="pre-footer">
+        <div class="wrapper">
+            <div class="pre-footer__all-content">
+                <div class="pre-footer__left-side">
+                    <h3 class="pre-footer__h3">Manage your projects<br>from your mobile</h3>
+                    <p class="pre-footer__text">
+                        Download the app to manage your projects, keep track of the
+                        progress and complete tasks without procastinating. Stay on
+                        track and complete on time!
+                    </p>
+                    <p class="pre-footer__after-text">Get the App</p>
+                    <div class="pre-footer__download">
+                        <a href="#!" class="header__download-link">
+                            <img class='header__download-pic pre-footer__download-pic' src="./img/svg/GooglePlay.svg"
+                                 alt="Google Play">
+                        </a>
+                        <a href="#!" class="header__download-link">
+                            <img class='header__download-pic pre-footer__download-pic' src="./img/svg/AppStore.svg"
+                                 alt="App Store">
+                        </a>
+                    </div>
+                </div>
+                <img src="./img/phone-img3.webp" alt="phone" class="pre-footer__img1" data-aos="fade-down">
+                <img src="./img/phone-img.webp" alt="phone" class="pre-footer__img2" data-aos="fade-up">
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__content">
+            <div class="footer__left-side">
+                <img src="./img/svg/logo-footer.svg" alt="logo" class="footer__logo">
+                <div class="footer__links-1">
+                    <a href="#!" class="footer__link">Download Now</a>
+                    <a href="#!" class="footer__link">License</a>
+                </div>
+                <div class="footer__links-2">
+                    <a href="#!" class="footer__link">About</a>
+                    <a href="#!" class="footer__link">Features</a>
+                    <a href="#!" class="footer__link">Pricing</a>
+                    <a href="#!" class="footer__link">Careers</a>
+                    <a href="#!" class="footer__link">Help</a>
+                    <div><a href="#!" class="footer__link">Privacy Policy</a></div>
+                </div>
+                <p class="footer__copywriting">© 2020 Landify UI Kit. All rights reserved</p>
+            </div>
+            <div class="footer__right-side">
+                <p class="footer__after-text">Get the App</p>
+                <div class="footer__download">
+                    <a href="#!" class="footer__download-link">
+                        <img class='footer__download-pic' src="./img/svg/GooglePlay.svg" alt="Google Play">
+                    </a>
+                    <a href="#!" class="footer__download-link">
+                        <img class='footer__download-pic' src="./img/svg/AppStore.svg" alt="App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
